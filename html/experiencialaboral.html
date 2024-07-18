@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiencia</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(../assets/Computer-screen-code-glitch-animation-gif-background-free.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 20px;
+            color: beige;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        section{
+            height: 140vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+
+        section img{
+            margin-top: 30px;
+            max-width: 300px;
+            max-height: 250px;
+        }
+
+        .contenedor_tiempo{
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+
+        .contenedor_tiempo .linea{
+            width: 900px;
+            position: absolute;
+            top: 30px;
+            height: 2px;
+            background-color: aliceblue;
+            z-index: -2;
+        }
+
+        .fecha{
+            display: inline-block;
+            font-size: 20px;
+            width: 200px;
+            height: 30px;
+            border-radius: 2%;
+            background-color: rgba(255, 255, 255, 0.404);
+            text-decoration: none;
+            margin: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale (1);
+            transition: background-color, transform .5s linear; 
+        }
+
+        .seleccionado{
+            transform: scale(1.2);
+            background-color: rgb(255, 136, 0);
+            color: black;
+            font-weight: bold;
+        }
+
+        a{
+            color: aqua;
+            margin-left: 5px;
+        }
+
+        h1{
+            color: beige;
+        }
+
+        h2{
+            color: beige;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #ini{
+            background-color: rgba(0, 0, 0, 0.411);
+        }
+
+        #ini h1{
+            font-size: 68px;
+            letter-spacing: 5px;
+        }
+
+        #trabajo1{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo2{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo3{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="nav">
+        <div class="lgs">
+            <img class="logo" src="../assets/Minimalist Digital Service Developer Logo.gif">
+        </div>
+        <div class="btn">
+            <button onclick="window.location.href='../index.html'" >INICIO</button>
+            <button onclick="window.location.href='./sobremi.html'">SOBRE MI</button>
+            <button onclick="window.location.href='./educacion.html'">EDUCACION</button>
+            <button onclick="window.location.href='./experiencialaboral.html'">EXPERIENCIA LABORAL</button>
+            <button onclick="window.location.href='./habilidades.html'">HABILIDADES</button>    
+        </div>
+    </div>
+  
+<!--
+    <div class="experiencia" id="experiencia">
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+        <h1 class="cont2">Sr_luchop desarrollador de software, diseñador grafico y diseñador 3d</h1>
+        <p class="cont2">
+            
+        </p>
+    </div>
+-->
+    <section id="ini">
+        <div class="contenedor_tiempo">
+            <div class="linea">
+
+            </div>
+            <a href="#trabajo1" id="mfreelance" class="fecha">Desarrollador freelance</a>
+            <a href="#trabajo2" id="mlogos" class="fecha">Desarrollador Fullstack</a>
+            <a href="#trabajo3" id="mdiseñador" class="fecha">Diseñador grafico/3D</a>
+        </div>
+        <h1>experiencia laboral</h1>
+        <h2>fechas</h2>
+        <p>I: 2021 F: actualidad - I: 07/2023  F: 10/2023 - I: 2023 F: actualidad</p>
+    </section>
+
+    <section id="trabajo1">
+        <h2>Desarrollador Freelance: 2021 a la actualidad</h2>
+        <br>
+        <h2>tareas desarrolladas</h2>
+        <p>
+            desarrollo de aplicaciones web, desarrollo de aplicaciones de escritorio, 
+            desarrollo de aplicaciones mobiles, desarrollado de sitios web, desarrollado de base de datos,
+            desarrollo de videojuegos, desarrollo de esquemas para paginas web (figma), consultor de software,
+            desarrollo de aplicaciones para la industria de la salud, desarrollo de aplicaciones para la industria comercial,
+            desarrollo de sistemas para domotica.
+        </p>
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+    </section>
+
+    <section id="trabajo2">
+        <h2>Desarrollador Full stack para logos: 07/2023 a 10/2023</h2>
+        <br>
+        <h2>tareas desarrolladas</h2>
+        <p>desarrollo de aplicaciones web para unificacion de aplicaciones administrativas con tecnologia 
+            angular, desarrollo 
+            de sistemas scada (ignition)
+        </p>
+        <img src="../assets/logo_logos_reducido.png">
+    </section>
+
+    <section id="trabajo3">
+        <h2>Diseñador grafico/3D: 2023 a la actualidad</h2>
+        <br>
+        <h2>tareas desarrolladas</h2>
+        <p>
+            DISEÑO DE TRACKERS PARA BODYSUIT PARA REALIDAD VIRTUAL, DESARROLLO DE DISEÑO DE CAJAS EN 3D CON FUSION 360, AUTODESK, 
+            BLENDER, SUITE DE ADOBE COMPLETA
+        </p>
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+    </section>
+
+    <script src="../js/funciones.js"></script>
+</body>
+</html>

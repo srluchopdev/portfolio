@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiencia</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(../assets/Computer-screen-code-glitch-animation-gif-background-free.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 20px;
+            color: beige;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        section{
+            height: 140vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+
+        section img{
+            margin-top: 30px;
+            max-width: 300px;
+            max-height: 250px;
+        }
+
+        .contenedor_tiempo{
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+
+        .contenedor_tiempo .linea{
+            width: 900px;
+            position: absolute;
+            top: 30px;
+            height: 2px;
+            background-color: aliceblue;
+            z-index: -2;
+        }
+
+        .fecha{
+            display: inline-block;
+            font-size: 20px;
+            width: 200px;
+            height: 30px;
+            border-radius: 2%;
+            background-color: rgba(255, 255, 255, 0.404);
+            text-decoration: none;
+            margin: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale (1);
+            transition: background-color, transform .5s linear; 
+        }
+
+        .seleccionado{
+            transform: scale(1.2);
+            background-color: rgb(255, 136, 0);
+            color: black;
+            font-weight: bold;
+        }
+
+        a{
+            color: aqua;
+            margin-left: 5px;
+        }
+
+        h1{
+            color: beige;
+        }
+
+        h2{
+            color: beige;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #ini{
+            background-color: rgba(0, 0, 0, 0.411);
+        }
+
+        #ini h1{
+            font-size: 68px;
+            letter-spacing: 5px;
+        }
+
+        #trabajo1{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo2{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo3{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="nav">
+        <div class="lgs">
+            <img class="logo" src="../assets/Minimalist Digital Service Developer Logo.gif">
+        </div>
+        <div class="btn">
+            <button onclick="window.location.href='../index.html'" >INICIO</button>
+            <button onclick="window.location.href='./sobremi.html'">SOBRE MI</button>
+            <button onclick="window.location.href='./educacion.html'">EDUCACION</button>
+            <button onclick="window.location.href='./experiencialaboral.html'">EXPERIENCIA LABORAL</button>
+            <button onclick="window.location.href='./habilidades.html'">HABILIDADES</button>    
+        </div>
+    </div>
+  
+<!--
+    <div class="experiencia" id="experiencia">
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+        <h1 class="cont2">Sr_luchop desarrollador de software, diseñador grafico y diseñador 3d</h1>
+        <p class="cont2">
+            
+        </p>
+    </div>
+-->
+    <section id="ini">
+        <div class="contenedor_tiempo">
+            <div class="linea">
+
+            </div>
+            <a href="#trabajo1" id="mfreelance" class="fecha">Cet n° 30</a>
+            <a href="#trabajo2" id="mlogos" class="fecha">its cipolletti</a>
+            <a href="#trabajo3" id="mdiseñador" class="fecha">cursos</a>
+        </div>
+        <h1>experiencia academica</h1>
+        <h2>fechas</h2>
+        <p>I: 2013 F: 2019 - I: 2023  F: 2025</p>
+    </section>
+
+    <section id="trabajo1">
+        <h2>Cet n° 30: tecnico en programacion</h2>
+        <br>
+        <h2>AREA DE ESTUDIO</h2>
+        <p>
+            COLEGIO TECNICO CON ORIENTACION EN PROGRAMACION, TIEMPO DE ESTUDIO: DESDE 2013 HASTA 2019 FINALIZADO.
+            <br>
+            TALLERES RELEVANTES:
+            REDES, SOFTWARE, HARDWARE, APLICACIONES, DISEÑO WEB, ROBOTICA.
+        </p>
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+    </section>
+
+    <section id="trabajo2">
+        <h2>ITS CIPOLLETTI: TECNICO EN DESARROLLO FULL STACK</h2>
+        <br>
+        <h2>AREA DE ESTUDIO</h2>
+        <p>
+            EDUCACION SUPERIOR: TECNICO EN DESARROLLO FULLSTACK, TIEMPO DE ESTUDIO: DESDE 2023 HASTA 2025 EN CURSO
+        </p>
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+    </section>
+
+    <section id="trabajo3">
+        <h2>CURSOS REALIZADOS</h2>
+        <br>
+        <h2>AREA DE ESTUDIO</h2>
+        <p>
+
+        </p>
+        <img src="../assets/Minimalist Digital Service Developer Logo.gif">
+    </section>
+
+    <script src="../js/funciones.js"></script>
+</body>
+</html>

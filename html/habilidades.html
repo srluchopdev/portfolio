@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiencia</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(../assets/Computer-screen-code-glitch-animation-gif-background-free.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 20px;
+            color: beige;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        section{
+            height: 140vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+
+        section img{
+            margin-top: 30px;
+            max-width: 300px;
+            max-height: 250px;
+            background: none;
+        }
+
+        .contenedor_tiempo{
+            position: fixed;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+
+        .contenedor_tiempo .linea{
+            width: 100%;
+            position: absolute;
+            top: 30px;
+            height: 2px;
+            background-color: aliceblue;
+            z-index: -2;
+        }
+
+        .fecha{
+            display: inline-block;
+            font-size: 20px;
+            width: 50px;
+            height: 40px;
+            border-radius: 2%;
+            background-color: rgba(255, 255, 255, 0.404);
+            text-decoration: none;
+            margin: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale (1);
+            transition: background-color, transform .5s linear; 
+        }
+
+        .fecha img{
+            width: 40px;
+            height: 40px;
+        }
+
+        .seleccionado{
+            transform: scale(1.2);
+            background-color: rgb(255, 136, 0);
+            color: black;
+            font-weight: bold;
+        }
+
+        a{
+            color: aqua;
+            margin-left: 5px;
+        }
+
+        h1{
+            color: beige;
+        }
+
+        h2{
+            color: beige;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #ini{
+            background-color: rgba(0, 0, 0, 0.411);
+        }
+
+        #ini h1{
+            font-size: 68px;
+            letter-spacing: 5px;
+        }
+
+        #trabajo1{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo2{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo3{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+
+        #trabajo4{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo5{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo6{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+
+        #trabajo7{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo8{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo9{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+
+        #trabajo10{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo11{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo12{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+
+        #trabajo13{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+        #trabajo14{
+            background-color: rgba(0, 204, 255, 0.590);
+            color: rgb(255, 255, 255);
+        }
+
+        #trabajo15{
+            background-color: rgba(212, 0, 255, 0.590);
+        }
+
+        #trabajo16{
+            background-color: rgba(0, 89, 255, 0.590);
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="nav">
+        <div class="lgs">
+            <img class="logo" src="../assets/Minimalist Digital Service Developer Logo.gif">
+        </div>
+        <div class="btn">
+            <button onclick="window.location.href='../index.html'" >INICIO</button>
+            <button onclick="window.location.href='./sobremi.html'">SOBRE MI</button>
+            <button onclick="window.location.href='./educacion.html'">EDUCACION</button>
+            <button onclick="window.location.href='./experiencialaboral.html'">EXPERIENCIA LABORAL</button>
+            <button onclick="window.location.href='./habilidades.html'">HABILIDADES</button>    
+        </div>
+    </div>
+  
+<!--
+    <div class="experiencia" id="experiencia">
+        <img src="../assets.">
+        <h1 class="cont2">Sr_luchop desarrollador de software, diseñador grafico y diseñador 3d</h1>
+        <p class="cont2">
+            
+        </p>
+    </div>
+-->
+    <section id="ini">
+        <div class="contenedor_tiempo">
+            <div class="linea">
+
+            </div>
+            <a href="#trabajo1" id="mfreelance" class="fecha"><img src="../assets/html.webp"></a>
+            <a href="#trabajo2" id="mlogos" class="fecha"><img src="../assets/css.svg"></a>
+            <a href="#trabajo3" id="mdiseñador" class="fecha"><img src="../assets/js.webp"></a>
+            <a href="#trabajo4" id="mdiseñador" class="fecha"><img src="../assets/node.png"></a>
+            <a href="#trabajo5" id="mdiseñador" class="fecha"><img src="../assets/angular.png"></a>
+            <a href="#trabajo6" id="mdiseñador" class="fecha"><img src="../assets/react.svg"></a>
+            <a href="#trabajo7" id="mdiseñador" class="fecha"><img src="../assets/ionic.png"></a>
+            <a href="#trabajo8" id="mdiseñador" class="fecha"><img src="../assets/mysql.png"></a>
+            <a href="#trabajo9" id="mdiseñador" class="fecha"><img src="../assets/server.png"></a>
+            <a href="#trabajo10" id="mdiseñador" class="fecha"><img src="../assets/workbench.jfif"></a>
+            <a href="#trabajo11" id="mdiseñador" class="fecha"><img src="../assets/php.svg"></a>
+            <a href="#trabajo12" id="mdiseñador" class="fecha"><img src="../assets/kotlin.jfif"></a>
+            <a href="#trabajo13" id="mdiseñador" class="fecha"><img src="../assets/figma.webp"></a>
+            <a href="#trabajo14" id="mdiseñador" class="fecha"><img src="../assets/adobe.svg"></a>
+            <a href="#trabajo15" id="mdiseñador" class="fecha"><img src="../assets/autodesck.svg"></a>
+            <a href="#trabajo16" id="mdiseñador" class="fecha"><img src="../assets/blender.png"></a>
+        </div>
+        <h1>habilidades</h1>
+        <h2>fechas</h2>
+        <p>I: 2021 F: actualidad - I: 07/2023  F: 10/2023 - I: 2023 F: actualidad</p>
+    </section>
+
+    <section id="trabajo1">
+        <h2>html</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/html.webp">
+    </section>
+
+    <section id="trabajo2">
+        <h2>css</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/css.svg">
+    </section>
+
+    <section id="trabajo3">
+        <h2>javascript</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/js.webp">
+    </section>
+
+    <section id="trabajo4">
+        <h2>node.js</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            2 años de experiencia
+        </p>
+        <img src="../assets/node.png">
+    </section>
+
+    <section id="trabajo5">
+        <h2>angular</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/angular.png">
+    </section>
+
+    <section id="trabajo6">
+        <h2>react</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            1 año de experiencia
+        </p>
+        <img src="../assets/react.svg">
+    </section>
+
+    <section id="trabajo7">
+        <h2>ionic</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            2 años de experiencia
+        </p>
+        <img src="../assets/ionic.png">
+    </section>
+
+    <section id="trabajo8">
+        <h2>mysql</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3
+        </p>
+        <img src="../assets/mysql.png">
+    </section>
+
+    <section id="trabajo9">
+        <h2>mysql server</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/server.png">
+    </section>
+
+    <section id="trabajo10">
+        <h2>workbench</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            2 años de experiencia
+        </p>
+        <img src="../assets/workbench.jfif">
+    </section>
+
+    <section id="trabajo11">
+        <h2>php</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/php.svg">
+    </section>
+
+    <section id="trabajo12">
+        <h2>kotlin</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            2 años de experiencia
+        </p>
+        <img src="../assets/kotlin.jfif">
+    </section>
+
+    <section id="trabajo13">
+        <h2>figma</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/figma.webp">
+    </section>
+
+    <section id="trabajo14">
+        <h2>suite de adobe completa</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            3 años de experiencia
+        </p>
+        <img src="../assets/adobe.svg">
+    </section>
+
+    <section id="trabajo15">
+        <h2>AUTODESK fusion 360</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            2 años de experiencia
+        </p>
+        <img src="../assets/autodesck.svg">
+    </section>
+
+    <section id="trabajo16">
+        <h2>blender</h2>
+        <br>
+        <h2>tiempo utilizado</h2>
+        <p>
+            5 años de experiencia
+        </p>
+        <img src="../assets/blender.png">
+    </section>
+
+    <script src="../js/funciones.js"></script>
+</body>
+</html>
